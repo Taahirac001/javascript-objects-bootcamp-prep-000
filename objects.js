@@ -1,9 +1,10 @@
-var meals = {};
-var meals = new Object();
-var meals = {
-  breakfast: "oatmeal"
+function destructivelyUpdateObjestWithKeyAndValue(obj, key, value){
+  obj[key] = value;
+  return obj
 }
 
-var meals = new Object({
-  breakfast: 'oatmeal'
-})
+const recipe = {eggs: 3}
+
+function destructivelyUpdateObjestWithKeyAndValue(recipe, 'flour', '3 cups'){
+  
+}
